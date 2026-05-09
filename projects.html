@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Projects - Priyanka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container">
+            <div class="navbar-nav me-auto">
+                <a class="nav-link fw-bold" href="index.html">Home</a>
+                <a class="nav-link fw-bold" href="resume.html">Resume</a>
+                <a class="nav-link fw-bold" href="projects.html">Projects</a>
+            </div>
+            <span class="navbar-brand mx-auto fw-bold fs-4">Priyanka's Portfolio</span>
+            <div class="navbar-nav ms-auto">
+                <button id="themeToggle" class="btn btn-sm me-3" style="border-radius: 50px;">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a class="nav-link" href="https://www.linkedin.com/in/priyanka-536247291" target="_blank"><i class="fab fa-linkedin fs-5"></i></a>
+                <a class="nav-link" href="https://github.com/Priyanka26102005" target="_blank"><i class="fab fa-github fs-5"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-5 display-5 fw-bold text-center">My Projects</h2>
+            <div class="row g-4">
+
+                <!-- URL Shortener -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">URL Shortener Service</h5>
+                            <div class="mb-2">
+                                <span class="badge bg-success me-1">Backend API</span>
+                                <span class="badge bg-warning text-dark me-1">Individual</span>
+                                <span class="badge bg-secondary">In Progress</span>
+                            </div>
+                            <small class="text-muted mb-3"><i class="fas fa-tools me-1"></i> Java · Spring Boot · MySQL · REST API</small>
+                            <ul class="mb-3 ps-3" style="font-size: 0.88rem;">
+                                <li>Building a REST API service that generates short URLs and handles HTTP redirection using Java and Spring Boot.</li>
+                                <li>Designed MySQL schema to store original URLs, short codes, and click count per link.</li>
+                                <li>Currently implementing layered MVC architecture (Controller → Service → Repository) — project in active development.</li>
+                            </ul>
+                            <div class="mt-auto">
+                                <a href="#" target="_blank" class="btn btn-sm btn-outline-success"><i class="fab fa-github"></i> View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ShieldX -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">ShieldX — Tourist Safety System</h5>
+                            <div class="mb-2">
+                                <span class="badge bg-danger me-1">Android</span>
+                                <span class="badge bg-primary me-1">Team of 6</span>
+                                <span class="badge bg-success"><i class="fas fa-trophy me-1"></i>SIH 2025 Internal Round Cleared</span>
+                            </div>
+                            <small class="text-muted mb-3"><i class="fas fa-tools me-1"></i> Android · GPS · Geo-Fencing · SMS API</small>
+                            <ul class="mb-3 ps-3" style="font-size: 0.88rem;">
+                                <li>Created real-time GPS tracking and geo-fence alerts for tourists — auto-dispatches SOS SMS on boundary violation.</li>
+                                <li>Collaborated in a 6-member team with task division and version tracking using Git throughout development.</li>
+                                <li>Delivered working prototype under competitive deadline — cleared Smart India Hackathon 2025 internal round.</li>
+                            </ul>
+                            <div class="mt-auto">
+                                <a href="https://github.com/Priyanka26102005/ShieldX-Tourist-Safety-System" target="_blank" class="btn btn-sm btn-outline-danger"><i class="fab fa-github"></i> View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Train Reservation -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Train Reservation System</h5>
+                            <div class="mb-2">
+                                <span class="badge bg-primary me-1">Full-Stack</span>
+                                <span class="badge bg-secondary">Team of 4</span>
+                            </div>
+                            <small class="text-muted mb-3"><i class="fas fa-tools me-1"></i> Java · MySQL · JDBC · HTML · CSS</small>
+                            <ul class="mb-3 ps-3" style="font-size: 0.88rem;">
+                                <li>Built an end-to-end booking system — seat search, availability check, booking confirmation, and PNR generation.</li>
+                                <li>Designed 4-table normalized MySQL schema with foreign key constraints and indexing — ~35% faster seat queries.</li>
+                                <li>Implemented seat-locking logic in Java backend to prevent double-allocation under concurrent bookings.</li>
+                                <li>Used JDBC parameterized queries throughout to prevent SQL injection vulnerabilities.</li>
+                                <li>Developed role-based authentication with session management and an admin panel for schedule control.</li>
+                            </ul>
+                            <div class="mt-auto">
+                                <a href="https://github.com/Priyanka26102005/Train-Reservation-System" target="_blank" class="btn btn-sm btn-outline-primary"><i class="fab fa-github"></i> View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Personal Portfolio Website</h5>
+                            <div class="mb-2">
+                                <span class="badge bg-info me-1">Frontend</span>
+                                <span class="badge bg-warning text-dark">Individual</span>
+                            </div>
+                            <small class="text-muted mb-3"><i class="fas fa-tools me-1"></i> HTML · CSS · JavaScript · Bootstrap</small>
+                            <ul class="mb-3 ps-3" style="font-size: 0.88rem;">
+                                <li>Designed and developed a fully responsive personal portfolio website from scratch using HTML5, CSS3, and JavaScript.</li>
+                                <li>Implemented mobile-first layout with smooth scroll and a live project showcase section — deployed on GitHub Pages.</li>
+                            </ul>
+                            <div class="mt-auto">
+                                <a href="https://github.com/Priyanka26102005/Personal-Portfolio" target="_blank" class="btn btn-sm btn-outline-info"><i class="fab fa-github"></i> View on GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4" style="background: rgba(255, 255, 255, 0.9); margin: 20px; border-radius: 20px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-12 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0 fs-5"><i class="fas fa-phone-alt"></i> +91 7877134098</p>
+                </div>
+                <div class="col-md-4 col-12 text-center mb-3 mb-md-0">
+                    <p class="mb-0 fs-5">&copy; 2025 Priyanka</p>
+                </div>
+                <div class="col-md-4 col-12 text-center text-md-end">
+                    <p class="mb-0 fs-5"><i class="fas fa-envelope"></i> singhpriyanka3409@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
